@@ -1,0 +1,50 @@
+.heading
+{
+    background-color: rgb(9, 100, 50);
+    color:white;
+    height:100px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+*
+{
+    padding:0;
+    margin:0;
+}
+
+.watch 
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    width:600px;
+    background-color: rgb(5, 5, 156);
+    color: white;
+    border-radius: 50px;
+    gap:70px;
+    flex-wrap: wrap;
+}
+
+.stopwatch
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+
+}
+
+.button1, .button2, .button3 
+{
+    border:none;
+    border-radius: 50%;
+    height:80px;
+    width:80px;
+    font-size: 20px;;
+    background-color: white;
+}
